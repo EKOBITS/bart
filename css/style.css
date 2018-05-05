@@ -1,0 +1,182 @@
+/*for the Home page*/
+body {
+    font-family: 'garamond', cursive;
+    font-size: 13pt; 
+}
+
+.text{
+	font-size: 30px;
+	margin-left: 30%;
+	margin-top: 10%;
+}
+.text p {
+    font-family: 'garamond', cursive;
+   
+}
+/*this our section any information call me 08106379777*/
+.section-1 {
+    background-image: url("../img/bart.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.nav-navbar {
+    /*text-align:right;*/
+    float: right;
+    display:flex;
+    list-style-type: none;
+}
+li {
+    display:inline-block;
+    padding:20px;
+    list-style-type: none;
+
+}
+
+.nav-navbar a {
+    color: black;
+    font-size: 10px;
+    border:3px black groove;
+    border-radius: 9px;
+    padding:6px 7px; 
+}
+
+.nav-navbar a:hover{
+    background-color: #00162d;
+    color: white;
+    text-decoration: none;
+    transition: 2s;
+}
+
+/*------typerwiter-------*/
+
+h1 {
+  font-size: 30px;
+    margin-left: 30%;
+    margin-top: 20%;
+    
+    color: #935a00;
+    font-family: 'garamond', cursive;
+}
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+/*burger menu*/
+ /*{
+    transition: 75s ease-in-out;
+}
+#burger {
+    margin-top: 25px;
+}
+
+.bline {
+    width: 50px;
+    height: 5px;
+    margin-top: 5px;
+    background-color: black;
+}
+
+#burger:hover .one {
+    transform:rotate(55deg);
+}
+
+#burger:hover .two {
+    margin-top: -5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 5s .7s, opacity .8s linear;
+}
+
+#burger:hover .tre {
+    margin-top: -5px;
+    transform: rotate(-35deg);
+
+}*/
+
+/*--------------------------works--------------------------------*/
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family:Garamond;
+}
+
+.about{
+    height: 100vh;
+    margin-top: 20px;
+}
+
+/*===================BEGINING OF H2===========================*/
+
+.header2{
+    margin-top: 40px;
+    color: white;
+    font-family: Garamond;
+
+}
+
+/*===================== ENDING OF H2=============================*/
+
+/*===================BEGINING OF FIRST PARAGRAPH===============================*/
+.para1{
+    color: white;
+    font-family: Garamond;
+    font-size: 20px;
+
+}
+
+/*===================== ENDING OF FIRST PARAGRAPH=============================*/
+
+
+.profile img{
+    height: 250px;
+    width: auto;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    /*margin-left:40%;*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.color{
+    background-color:#00162d;
+    border-bottom: 3px solid black;
+}
+
+
+/*====================================== TOOLS I CAN USE PART=====================*/
+.header3{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    /*text-decoration: underline;*/
+}
+.header3-space{
+    margin-top: 20px;
+}
+
+.header6{
+    font-size: 24px;
+}
+.header3follow{
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.footer{
+    background-color: red;
+
+}
+

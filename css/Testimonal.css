@@ -1,0 +1,19 @@
+.pic {
+	width: 200px;
+	height: 200px;
+	margin-left: 40px;
+	border-radius: 50%;
+}
+.sect3 {
+	background: #9d2828;
+	font-family: garamord;
+	color:white;
+	font-size: 20px;
+}
+.name {
+	font-size: 15px;
+	color: black;
+}
+.pad {
+	padding: 20px;
+}

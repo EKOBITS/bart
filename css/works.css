@@ -1,0 +1,61 @@
+
+
+#work{
+	padding-top: 60px;
+}
+/*h2:after{
+	content: " ";
+	width:50px;
+	height: 2px;
+	background: #9d2828;
+	display: block;
+	margin: 0 auto;
+	margin-top: 15px;
+}*/
+.work-header{
+	margin-bottom: 30px;
+}
+.work-para{
+	padding-right: 30px;
+}
+.img-box{
+	width: 100%;
+	height: auto;
+}
+.img-container-2{
+	margin-top: 30px;
+}
+.img-size{
+	widows: 100%;
+	height: 229.98px;
+}
+
+/*hover effect*/
+
+.hover-box{
+	position: relative;
+
+}
+.hover-box-outer{
+	position: absolute;
+	bottom: 0;
+}
+.hover-box-inner{
+	background-color: #9d28289e;
+	padding: 10px;
+	color: #fff;
+	height: 230px;
+	opacity: 0;
+	transform: scale(0.8);
+    transition: all 0.3s ease;
+}
+.hover-box-inner:hover{
+	opacity: 1;
+	transform: scale(1);
+}
+
+
+
+
+
+
