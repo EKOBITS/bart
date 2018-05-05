@@ -1,0 +1,28 @@
+body{
+	height: 100%;
+	background-image: url(../img/bart.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.text{
+	color: white;
+	text-align: left;
+	font-size: 20px;
+	margin-left: 15%;
+	margin-top: 8%;
+	font-family:Garamond;
+}
+h4{
+	
+
+}
+/*@media screen and (min-width: 480px){
+	body{
+		height: 100vh;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	
+	}
+}*/
